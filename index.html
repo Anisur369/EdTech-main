@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdTech</title>
+
+    <!-- Google Poppins fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Oswald:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--hello world-->
+    <!--- header section start -->
+    <header class="header">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg align-items-center justify-content-between py-4">
+           <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand m-0 fw-bold fs-3" href="#">Pro Edu</a>
+                </div>
+                <button class="btn btn-outline-info d-none d-md-block d-lg-none ms-auto me-3">Register</button>
+                <button data-bs-toggle="collapse" data-bs-target="#navbar" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="navbar-nav text-capitalize mx-auto">
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">home</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">courses</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">details</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">Success</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">about</a></li>
+                        <li class="nav-item mx-3"><a class="nav-link" href="#">register</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <button class="btn btn-outline-info ms-lg-auto mx-2">Register</button>
+                </div>
+           </div>
+        </nav>
+
+        <!-- header banner -->
+        <section class="header-banner py-4">
+            <div class="container">
+                <div class="">
+                    <div id="carousel" data-bs-ride="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" src="images/cover/cover-1.png" alt="carousel-1">
+                                <div class="carousel-content">
+                                   <div class="w-50 carousel-content-inner">
+                                        <h1 class="fw-bold">Get Started Digital
+                                            Learning</h1>
+                                        <p>It is a long established fact that a reader will be distracted by the readable
+                                            content of a page when looking at its layout.</p>
+                                        <button class="btn btn-primary">Get Started</button>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="images/cover/cover-2.jpg" alt="carousel-1">
+                                <div class="carousel-content">
+                                   <div class="w-50 title">
+                                        <h1 class="fw-bold">Get Started Digital
+                                            Learning</h1>
+                                        <p>It is a long established fact that a reader will be distracted by the readable
+                                            content of a page when looking at its layout.</p>
+                                        <button class="btn btn-primary">Get Started</button>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="images/cover/cover-3.jpg" alt="carousel-1">
+                                <div class="carousel-content">
+                                   <div class="w-50 carousel-content-inner">
+                                        <h1 class="fw-bold">Get Started Digital
+                                            Learning</h1>
+                                        <p>It is a long established fact that a reader will be distracted by the readable
+                                            content of a page when looking at its layout.</p>
+                                        <button class="btn btn-primary">Get Started</button>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" data-bs-slide="prev" href="#carousel"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next" data-bs-slide="next" href="#carousel"><span class="carousel-control-next-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--- header section End -->
+
+    <!-- popular courses start-->
+    <section class="courses py-5">
+        <div class="container">
+            <div class="title text-center w-50 mx-auto">
+                <h2 class="fw-bold">Discover Our Popular Courses</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+            <div class="row py-5">
+                <div class="col-12 col-lg-6">
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-1.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-2.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-3.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-4.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-5.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="flex-column flex-sm-row  d-flex align-items-center justify-content-between">
+                            <div class="card-image">
+                                <img class="" src="images/course/course-6.png" alt="course-1">
+                            </div>
+                            <div class="card-content p-3">
+                                <h5>Fundamental Of UI/UX Design</h5>
+                                <p>Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <a class="fw-bold text-decoration-none" href="#">Price : 20$</a>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary">See More Courses</button>
+            </div>
+        </div>
+    </section>
+    <!-- popular courses End-->
+
+    <!-- explore institute start-->
+    <section class="explore-institute py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5">
+                    <img class="img-fluid" src="images/working.png" alt="working">
+                </div>
+                <div class="col-12 col-md-7 explore-content p-5">
+                    <h2 class="fw-bold">Explore The clearing Institute</h2>
+                    <p class=" ">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going
+                        to use a passage of Lorem Ipsum, you need to be sure.
+                        </p>
+                    <p class=" ">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                        generators on the Internet tend to repeat predefined</p>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <div>
+                            <h2 class="fw-bold">3.2k+</h2>
+                            <p>Online Coursese</p>
+                        </div>
+                        <div>
+                            <h2 class="fw-bold">1k+</h2>
+                            <p>Rating & Review</p>
+                        </div>
+                        <div>
+                            <h2 class="fw-bold">600+</h2>
+                            <p>Expert Member</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary mt-3">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- explore institute end-->
+
+
+    <!-- join us -->
+    <section class="join-us py-5">
+        <div class="container ">
+            <div class="bg-primary text-light py-5 rounded ">
+                <div class="join-inner d-flex align-items-center justify-content-around flex-column flex-lg-row text-center text-lg-start">
+                    <div class="w-50">
+                        <h2 class="fw-bold">Ready to join?</h2>
+                        <p>It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout.</p>
+                    </div>
+                    <div>
+                        <button data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-light">Register Now</button>
+                        <div class="modal text-start" id="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content text-dark">
+                                    <div class="modal-header">
+                                        <h4>Please Resigter Now</h4>
+                                        <button data-bs-dismiss="modal" class="btn btn-close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="https://formspree.io/f/xrgjkyrj" method="POST">
+                                            <label class="form-label" for="">Your Name</label><input name="Name:" class="form-control mb-3" type="text">
+                                            <label class="form-label" for="">Your Email</label><input name="Email:" class="form-control mb-3" type="eamil">
+                                            <label class="form-label" for="">Password</label><input name="Password:" class="form-control mb-3" type="password">
+                                            <div>
+                                                <button class="btn btn-primary">Register</button>
+                                                <button data-bs-dismiss="modal" class="btn btn-danger">close</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- join us -->
+
+    <!-- successful Students -->
+    <section class="successful-student py-5">
+        <div class="container">
+            <div class="title w-50 py-4 text-center text-md-start mx-auto mx-md-0">
+                <h2 class="fw-bold">Meet Our Successful Students</h2>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <img class="img-fluid" src="images/student/student-1.png" alt="student-1">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Awlad Hossain</h5>
+                                <p>UiUx Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <img class="img-fluid" src="images/student/student-2.png" alt="student-1">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Jannatul Islam</h5>
+                                <p>UiUx Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <img class="img-fluid" src="images/student/student-3.png" alt="student-1">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Imran Hossain</h5>
+                                <p>UiUx Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <img class="img-fluid" src="images/student/student-4.png" alt="student-1">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Nishi Akter</h5>
+                                <p>UiUx Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                <button class="btn btn-primary px-5 py-2">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- successful Students -->
+
+    <!-- students Feedback-->
+    <section class="feedback py-5">
+        <div class="container">
+            <div class="w-50 title mx-auto text-center pb-5">
+                <h2 class="fw-bold">Some Students Feedback</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+            <div id="carousel2" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img class="img-fluid" src="images/comma.png" alt="comma">
+                                            </div>
+                                            <div class="text-warning">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form, by injected
+                                            humour, or randomised words which don't look even slightly
+                                            believable. If you are going to use a passage of Lorem.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img class="img-fluid" src="images/student/student-5.png" alt=""></div>
+                                            <div class="px-2 mt-3">
+                                                <h5 class="fw-bold m-0">Awlad hossain</h5>
+                                                <p>Ui Designer</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img class="img-fluid" src="images/comma.png" alt="comma">
+                                            </div>
+                                            <div class="text-warning">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form, by injected
+                                            humour, or randomised words which don't look even slightly
+                                            believable. If you are going to use a passage of Lorem.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img class="img-fluid" src="images/student/student-6.png" alt=""></div>
+                                            <div class="px-2 mt-3">
+                                                <h5 class="fw-bold m-0">Shanta Akter</h5>
+                                                <p>Ui Designer</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img class="img-fluid" src="images/comma.png" alt="comma">
+                                            </div>
+                                            <div class="text-warning">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form, by injected
+                                            humour, or randomised words which don't look even slightly
+                                            believable. If you are going to use a passage of Lorem.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img class="img-fluid" src="images/student/student-5.png" alt=""></div>
+                                            <div class="px-2 mt-3">
+                                                <h5 class="fw-bold m-0">Awlad hossain</h5>
+                                                <p>Ui Designer</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 d-none d-md-block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img class="img-fluid" src="images/comma.png" alt="comma">
+                                            </div>
+                                            <div class="text-warning">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but
+                                            the majority have suffered alteration in some form, by injected
+                                            humour, or randomised words which don't look even slightly
+                                            believable. If you are going to use a passage of Lorem.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img class="img-fluid" src="images/student/student-6.png" alt=""></div>
+                                            <div class="px-2 mt-3">
+                                                <h5 class="fw-bold m-0">Shanta Akter</h5>
+                                                <p>Ui Designer</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" data-bs-slide="prev" href="#carousel2"><i class="fa fa-angle-left"></i></a>
+                <a class="carousel-control-next" data-bs-slide="next" href="#carousel2"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- students Feedback-->
+
+
+    <!-- freequently ask question -->
+    <section class="common-question py-5">
+        <div class="container">
+            <div class="title w-50 text-center mx-auto pb-4">
+                <h2 class="fw-bold">Frequently Asked Questionsw</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+            <div class="faq w-75 mx-auto" id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#faq1" class="nav-link fw-bold text-center">
+                            <p class="m-0">What are the different flexbox and grid ?</p>
+                        </a>
+                    </div>
+                    <div class="card-body collapse show" id="faq1" data-bs-parent="#accordion">
+                        <p>Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#faq2" class="nav-link fw-bold text-center">
+                            <p class="m-0">What are the different bootstrap and Tailwind css ?</p>
+                        </a>
+                    </div>
+                    <div class="card-body collapse" id="faq2" data-bs-parent="#accordion">
+                        <p>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#faq3" class="nav-link fw-bold text-center">
+                            <p class="m-0">What is Css Box model ?</p>
+                        </a>
+                    </div>
+                    <div class="card-body collapse" id="faq3" data-bs-parent="#accordion">
+                        <p>In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#faq4" class="nav-link fw-bold text-center">
+                            <p class="m-0">What is Semantic Tag ?</p>
+                        </a>
+                    </div>
+                    <div class="card-body collapse" id="faq4" data-bs-parent="#accordion">
+                        <p>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- freequently ask question -->
+
+
+    <!-- company logo section-->
+    <section class="trusted-company py-5 d-none d-lg-block">
+        <div class="container">
+            <h2 class="fw-bold text-center pb-4">Trusted by over 800+ companies</h2>
+            <div class="row pt-4 align-items-center justify-content-between">
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-1.png" alt="company-1">
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-2.png" alt="company-1">
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-3.png" alt="company-1">
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-4.png" alt="company-1">
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-5.png" alt="company-1">
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="images/company/company-6.png" alt="company-1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- company logo section-->
+
+    <!-- footer -->
+    <footer class="footer py-5 bg-dark text-light text-center">
+        <div class="container">
+            <div class="title mx-auto">
+                <h4 class="fw-bold">Pro Edu</h4>
+                <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+                <p>&copy; Copyright 2022 | Designed By: Mohammad Hasan</p>
+                <div class="social-icon">
+                    <a class="text-light" href="http://www.facebook.com"><img src="icons/icon (5).png" alt=""></a>
+                    <a class="text-light" href="http://www.facebook.com"><img src="icons/icon (2).png" alt=""></a>
+                    <a class="text-light" href="http://www.facebook.com"><img src="icons/icon (1).png" alt=""></a>
+                    <a class="text-light" href="http://www.facebook.com"><img src="icons/icon (3).png" alt=""></a>
+                    <a class="text-light" href="http://www.facebook.com"><img src="icons/icon (4).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
